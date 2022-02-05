@@ -1,0 +1,69 @@
+@RELATION raw
+
+@ATTRIBUTE attribute_0 {Angola,Argentina,Australia,Belarus,Belize,Bolivia,Brasil,Burkina Faso,Canada,Chad,Chile,Colombia,Cuba,England,Guatemala,Gujana,Honduras,Indonesia,Italy,Japan,Kirgistan,Kiribati,Libia,Madagaskar,Mexico,Moldova,Mongolia,Namibia,Nauru,Nepal,Netherlands,New Zealand,North Corea,Oman,Pakistan,Palau,Panama,Paraguay,Peru,Poland,Portugal,RPA,Salwador,Samoa,Somalia,Switzerland,Syria,Tuvalu,USA,Ukraine,Uruguay,Vanuatu,Vietnam,Zimbabwe,country}
+@ATTRIBUTE attribute_1 {buddism,catholicism,islam,orthodoxy,protestantism,prothestantism,religion}
+@ATTRIBUTE attribute_2 REAL
+@ATTRIBUTE attribute_3 {authoritarianism,authoritarism,democracy,monarchy,politics,republic}
+@ATTRIBUTE attribute_4 REAL
+@ATTRIBUTE attribute_5 REAL
+@ATTRIBUTE attribute_6 REAL
+@ATTRIBUTE attribute_7 REAL
+@ATTRIBUTE attribute_8 REAL
+@ATTRIBUTE attribute_9 {Africa,Asia,Australia/Oceania,Europe,North America,South America,continent}
+
+@DATA
+country,religion,population,politics,density,PKB,UTC_summer,unemployment,access_to_see,continent
+Poland,catholicism,38265000,democracy,122,15629,2,6,1,Europe
+Switzerland,catholicism,8526932,democracy,206,58087,2,4,0,Europe
+Ukraine,orthodoxy,41400000,democracy,134,10310,3,8,1,Europe
+Belarus,orthodoxy,9413446,authoritarianism,45,5760,3,4,0,Europe
+Portugal,catholicism,10833816,democracy,117,31965,1,6,1,Europe
+England,protestantism,56286961,monarchy,432,42310,0,5,1,Europe
+Japan,buddism,125396901,democracy,335,40849,9,3,1,Asia
+Kirgistan,protestantism,6263000,republic,27,3668,6,3,0,Asia
+Mongolia,buddism,3206408,democracy,2,12979,8,12,0,Asia
+Oman,islam,4613241,monarchy,10,15672,4,5,1,Asia
+Syria,islam,17616818,republic,119,2807,3,9,1,Asia
+North Corea,buddism,25643466,authoritarianism,212,1300,9,3,1,Asia
+RPA,protestantism,56978635,republic,46,7506,2,35,1,Africa
+Chad,islam,12185000,authoritarianism,9,810,1,2,0,Africa
+Angola,catholicism,28180000,republic,24,4408,1,31,1,Africa
+Libia,islam,6448000,democracy,4,4859,2,18,1,Africa
+Burkina Faso,islam,18935000,republic,73,664,0,5,0,Africa
+Madagaskar,protestantism,25613000,republic,37,448,3,2,1,Africa
+USA,protestantism,331449281,republic,36,68309,-7,4,1,North America
+Canada,catholicism,36708000,monarchy,3,46271,-5,8,1,North America
+Cuba,catholicism,11032000,authoritarianism,100,7815,-4,4,1,North America
+Mexico,catholicism,124574795,republic,63,9304,-6,3,1,North America
+Honduras,catholicism,8307000,republic,81,2766,-6,9,1,North America
+Panama,catholicism,3928000,republic,52,10839,-5,7,1,North America
+Paraguay,catholicism,6943739,republic,17,4170,-3,8,0,South America
+Brasil,catholicism,210677000,republic,24,9895,-4,15,1,South America
+Chile,catholicism,18383000,republic,24,15070,-3,7,1,South America
+Argentina,catholicism,44000000,republic,16,14467,-3,12,1,South America
+Colombia,catholicism,4998000,republic,42,6273,-5,15,1,South America
+Bolivia,catholicism,11772000,republic,11,3353,-4,6,0,South America
+Australia,protestantism,25766000,monarchy,3,55707,8,5,1,Australia/Oceania
+New Zealand,protestantism,4500000,monarchy,17,40481,13,4,1,Australia/Oceania
+Indonesia,islam,267670543,republic,137,4135,8,4,1,Australia/Oceania
+Samoa,protestantism,200000,republic,71,3832,14,9,1,Australia/Oceania
+Vanuatu,protestantism,282000,republic,23,2815,11,2,1,Australia/Oceania
+Kiribati,protestantism,115000,republic,133,1721,13,9,1,Australia/Oceania
+Italy,catholicism,60483000,democracy,200,35914,2,9,1,Europe
+Moldova,orthodoxy,3553000,republic,105,2280,3,5,0,Europe
+Netherlands,catholicism,17303000,democracy,414,50339,2,3,1,Europe
+Nepal,buddism,30485000,republic,208,693,6,4,0,Asia
+Pakistan,islam,207774000,republic,258,1308,5,4,1,Asia
+Vietnam,buddism,93645000,authoritarism,283,2546,7,2,1,Asia
+Zimbabwe,prothestantism,14877000,republic,38,1176,2,6,0,Africa
+Somalia,islam,11000000,democracy,17,478,3,13,1,Africa
+Namibia,prothestantism,2500000,republic,3,6000,2,20,1,Africa
+Palau,catholicism,21516,republic,42,14022,9,2,1,Australia/Oceania
+Nauru,prothestantism,9642,republic,453,10983,12,23,1,Australia/Oceania
+Tuvalu,prothestantism,11052,monarchy,425,3405,12,8,1,Australia/Oceania
+Guatemala,catholicism,16990000,republic,142,4472,-6,5,1,North America
+Belize,catholicism,386000,monarchy,16,4807,-6,8,1,North America
+Salwador,catholicism,6369000,republic,293,4400,-6,7,1,North America
+Peru,catholicism,1285000,democracy,24,6674,-5,6,1,South America
+Uruguay,catholicism,3360000,republic,19,16609,-3,13,1,South America
+Gujana,catholicism,770000,republic,4,4710,-4,16,1,South America
